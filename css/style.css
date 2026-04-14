@@ -1,0 +1,25 @@
+.calculator-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(6, 100px);
+  width: 400px;
+}
+.calculator-container > * {
+  margin: 8px;
+}
+#calc-display {
+  grid-column-start: 1;
+  grid-column-end: end;
+  text-align: end;
+  font-size: x-large;
+}
+.clear-button {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.calculator-container .calc-button {
+  background-color: orange;
+}
+.calculator-container button {
+  font-size: x-large;
+}
