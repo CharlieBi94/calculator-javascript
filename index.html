@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Calcualtor</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <script src="./calculator.js"></script>
+    <script src="./calculator.js" defer="true"></script>
   </head>
   <body>
-    <div class="calculator-container">
-      <input type="number" id="calc-display" maxlength="16" value="0" />
+    <h1>Online Calculator</h1>
+    <div class="calculator-container" id="calculator">
+      <input type="string" id="calc-display" maxlength="16" value="0" />
       <button class="clear-button" value="clear">C</button>
       <button class="calc-button" value="+">+</button>
 
